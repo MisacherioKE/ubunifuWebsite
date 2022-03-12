@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.ubnifu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/main8.jpg);
+    background-size: cover;
+    position: relative;
+}
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.hello{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.navBar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+.dropDown{
+    color: white;
+    background-color: black;
+    display: none;
+}
+.navBar:hover .dropDown{
+    display: block;
+
+}
+.logo{
+    height: 30px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.listItem{
+    display: inline;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.listItem:hover{
+    color: rgb(190, 186, 186);
+}
+.menuIcon{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.menuIcon:hover{
+    color: rgb(185, 22, 49);
+}
+.btn{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.centreDiv{
+    position: absolute;
+    top: 30vh;
+   left: 33%;
+   text-align: center;
+}
+.define{
+    color: white;
+    font-size: 90px;
+    
+}
+.school{
+    color: white;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.startup{
+    background-color: rgb(185, 22, 49);
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.startup:hover{
+    background-color: transparent;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.roundButton{
+    background-color: royalblue;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+.mainDiv{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.Div1{
+    
+    width: 30%;
+   
+}
+.kbunifu{
+    color: rgb(223, 31, 63);
+    font-size: 12px;
+}
+.Dev{
+    font-weight: bold;
+    font-size: 50px;
+}
+.method{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.method:hover{
+color: black;
+}
+.text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hotBalloon{
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(223, 31, 63);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.graduate{
+    margin-top: 90px;
+    font-weight: bold;
+}
+.atUbunifu{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+.knight{
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 50%;
+    text-align: center;
+    background-color: rgb(89, 8, 240);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.project{
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: green;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.peer{
+    height: 350px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.containerDiv{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.DivA{
+    width: 50%;
+}
+.DivB{
+    width: 50%;
+    position: relative;
+}
+.emoji{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 80px;
+    
+}
+.belong{
+    font-size: 62px;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin-top: 200px;
+}
+.over{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.enroll{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(223, 31, 63);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.enroll:hover{
+    background-color: transparent;
+    border-color: rgb(223, 31, 63);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(223, 31, 63);
+}
+.centreText{
+ margin-top: 110px;
+ margin-right:0;
+ margin-left: 100px;
+}
+.Div4{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    position: relative;
+    
+}
+.Div4a{
+    background-color: rgb(247, 239, 239);
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Div4a img{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 30px;
+}
+.subDiv4a{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: transparent;
+    margin-right: 30px;
+    display: none;
+    position: absolute;
+    top: 0;
+ }
+.Div4a:hover .subDiv4a{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.Div4b:hover .subDiv4a{
+    background-color: tomato;
+    opacity: 0.8;
+    display: block;
+}
+.Div4c:hover .subDiv4a{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.Div5a:hover .subDiv4a{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.Div5b:hover .subDiv4a{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.Div5c:hover .subDiv4a{
+    background-color: tomato;
+    display: block;
+    opacity: 0.8;
+}
+.imgcards{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 30px;
+}
+.heading{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.textDiv4{
+    color: cornflowerblue;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.paraDiv4{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.Div6{
+    width: 100%;
+    height: 90vh;
+    margin-top: 100px;
+    display: flex;
+}
+.Div6a{
+    width: 50%;
+    background-size: cover;
+}
+.Div6a img{
+    height: 90vh;
+}
+.Div6b{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.Div6b h1{
+    position: absolute;
+   color: white; 
+    margin-top: 100px;
+}
+.subDiv6a{
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 100%;
+}
+.subDiv6a h2{
+   font-size: 20px;
+   color: rgb(54, 54, 54); 
+}
+.subDiv6a p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+/*page 2*/
+.mainDiv2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bgVida{
+    max-width: 100%;
+}
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+}
+.navBar2{
+display: flex;
+}
+.listItem2{
+    display: inline;
+    color: white;
+}
